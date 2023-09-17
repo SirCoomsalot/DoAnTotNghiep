@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh muc san pham</title>
+    <link rel="stylesheet" href="package/swiper-bundle.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header class=""> 
+        <div class="header_top row">
+            <label for="nav-mb-inp" class="icon-menu">
+                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="iconcate-action" x="0px" y="0px" viewBox="0 0 384.97 384.97" style="enable-background:new 0 0 384.97 384.97;" xml:space="preserve"> <g> <g id="Menu_1_"> <path d="M12.03,120.303h360.909c6.641,0,12.03-5.39,12.03-12.03c0-6.641-5.39-12.03-12.03-12.03H12.03    c-6.641,0-12.03,5.39-12.03,12.03C0,114.913,5.39,120.303,12.03,120.303z"></path> <path d="M372.939,180.455H12.03c-6.641,0-12.03,5.39-12.03,12.03s5.39,12.03,12.03,12.03h360.909c6.641,0,12.03-5.39,12.03-12.03    S379.58,180.455,372.939,180.455z"></path> <path d="M372.939,264.667H132.333c-6.641,0-12.03,5.39-12.03,12.03c0,6.641,5.39,12.03,12.03,12.03h240.606    c6.641,0,12.03-5.39,12.03-12.03C384.97,270.056,379.58,264.667,372.939,264.667z"></path> </g> </g> </svg>
+            </label>
+            <div class="logo"><a href=""><img src="img/logo.png" alt=""></a></div>
+            <div class="header_top_cen row">
+                <div class="search_wrap">
+                    <input type="text" name="txtsearch" placeholder="Tìm kiếm sản phẩm...">
+                    <i class="ti-search"></i>
+                    <div class="products-search">       
+                        
+                    </div>
+                </div>
+                <div class="contact_wrap row"> 
+                    <div class="contact" style="background-image: url('img/crea-50cc-nioshima-den97a8.png');">  
+                        <p>Tư vấn hỗ trợ</p>
+                        <a href="tel:0985571111">0985571111</a>
+                    </div>
+                    <div class="contact" style="background-image: url(bizweb.dktcdn.net/100/443/045/themes/844966/assets/placeholderc350.png?1686670305050);">  
+                        <p>Tư vấn hỗ trợ</p>
+                        <a>Cửa hàng</a>
+                    </div>
+                    <div class="contact" style="background-image: url(bizweb.dktcdn.net/100/443/045/themes/844966/assets/usersc350.svg?1686670305050);">  
+                        <p>Tư vấn hỗ trợ</p>
+                        <a>Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+            <div class="icons row"> 
+                <div>
+                    <a href="">
+                        <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"></path> </svg>
+                        <span>0</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <svg enable-background="new 0 0 407.453 407.453" version="1.1" viewBox="0 0 407.45 407.45" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <g fill="#010002"> <path d="m255.1 116.52c4.487 0 8.129-3.633 8.129-8.129 0-4.495-3.642-8.129-8.129-8.129h-111.61c-4.487 0-8.129 3.633-8.129 8.129 0 4.495 3.642 8.129 8.129 8.129h111.61z"></path> <path d="m367.06 100.26h-55.372c-4.487 0-8.129 3.633-8.129 8.129 0 4.495 3.642 8.129 8.129 8.129h47.243v274.68h-310.41v-274.68h44.536c4.487 0 8.129-3.633 8.129-8.129 0-4.495-3.642-8.129-8.129-8.129h-52.664c-4.487 0-8.129 3.633-8.129 8.129v290.94c0 4.495 3.642 8.129 8.129 8.129h326.67c4.487 0 8.129-3.633 8.129-8.129v-290.94c0-4.495-3.634-8.128-8.129-8.128z"></path> <path d="m282.59 134.8c4.487 0 8.129-3.633 8.129-8.129v-59.273c-1e-3 -37.156-40.115-67.394-89.618-67.394-49.308 0-89.414 30.238-89.414 67.394v59.274c0 4.495 3.642 8.129 8.129 8.129s8.129-3.633 8.129-8.129v-59.274c0-28.198 32.823-51.137 73.36-51.137 40.334 0 73.157 22.939 73.157 51.137v59.274c-1e-3 4.495 3.633 8.128 8.128 8.128z"></path> <path d="m98.892 147.57c0 11.526 9.389 20.907 20.923 20.907s20.923-9.38 20.923-20.907c0-4.495-3.642-8.129-8.129-8.129s-8.129 3.633-8.129 8.129c0 2.561-2.089 4.65-4.666 4.65-2.569 0-4.666-2.089-4.666-4.65 0-4.495-3.642-8.129-8.129-8.129s-8.127 3.634-8.127 8.129z"></path> <path d="m282.59 168.47c11.534 0 20.923-9.38 20.923-20.907 0-4.495-3.642-8.129-8.129-8.129s-8.129 3.633-8.129 8.129c0 2.561-2.089 4.65-4.666 4.65s-4.666-2.089-4.666-4.65c0-4.495-3.642-8.129-8.129-8.129s-8.129 3.633-8.129 8.129c2e-3 11.526 9.39 20.907 20.925 20.907z"></path> </g> </svg><span>0</span>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <svg width="419pt" height="419pt" viewBox="0 -45 419.24 419" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m359.08 102.91c1.4609 1.5391 3.4766 2.4375 5.6016 2.4844 2.125 0.050781 4.1797-0.75 5.7109-2.2227l46.414-44.898c1.5625-1.5117 2.4414-3.5938 2.4336-5.7656-0.003906-2.1758-0.89453-4.2539-2.4688-5.7539l-46.41-44.41c-3.1953-3.0547-8.2578-2.9414-11.312 0.25-1.4648 1.4922-2.2656 3.5156-2.2188 5.6055 0.046875 2.0898 0.9375 4.0742 2.4688 5.5l32.008 30.426h-64.273c-27.59 0.14453-53.539 13.133-70.191 35.137l-54.852 71.617-79.242-103.46c-1.4961-2.0156-3.8359-3.2305-6.3477-3.2891h-108.4c-4.418 0-8 3.582-8 8 0 4.418 3.582 8 8 8h104.45l79.449 104-79.449 104h-104.45c-4.418 0-8 3.582-8 8 0 4.418 3.582 8 8 8h108.4c2.5195-0.078125 4.8594-1.3086 6.3477-3.3359l79.242-103.41 54.812 71.617c16.66 22.012 42.625 35.004 70.23 35.133h64.273l-32.008 30.426c-2.3555 2.2344-3.1016 5.6875-1.8789 8.6992 1.2227 3.0078 4.1602 4.9648 7.4102 4.9258 2.0625-0.007813 4.043-0.8125 5.5312-2.2461l46.41-44.426c1.5742-1.5039 2.4648-3.5859 2.4688-5.7617 0.007813-2.1758-0.87109-4.2617-2.4336-5.7773l-46.414-44.91c-3.1758-3.0742-8.2422-2.9883-11.312 0.18359-3.0703 3.2539-2.9883 8.3633 0.1875 11.516l32.207 31.371h-64.441c-22.617-0.14062-43.875-10.816-57.5-28.875l-57.461-75.023 57.5-75.227c13.613-18.043 34.855-28.719 57.461-28.875h64.441l-32.207 31.371c-3.1758 3.1094-3.2578 8.1992-0.1875 11.414z"/>
+                        </svg><span>0</span>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="nav-pc header_nav_main">
+        
+        <div class="nav">
+            <div class="container row">
+                <div class="cartegory">
+                    <div class="cartegory_wrap">
+                        <span class="cartegory_title">Danh mục sản phẩm</span>
+                    </div>
+                    <div class="subnav">
+                        <ul class="cartegory_list">
+                            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);"> Xe ga 50cc <i class="fi fi-rr-angle-small-right"></i></i></a> 
+                                <div class="xegalist">
+                                    <ul class="row">
+                                        <li>
+                                            <a href="">VESPA 50CC</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="">XE CREA 50CC</a>
+                                        </li>
+                                        <li>
+                                            <a href="">GIORNO 50CC</a>
+                                        </li>
+                                        <li>
+                                            <a href="">GO GO 50CC</a>
+                                        </li>
+                                    </ul>
+                                   
+                                </div>
+                            </li>
+                            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Xe máy 50cc<i class="fi fi-rr-angle-small-right"></i></a>
+                                <div class="xegalist">
+                                    <ul class="row">
+                                        <li>
+                                            <a href="">CUB 50CC</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="">WAVE 50CC</a>
+                                        </li>
+                                        <li>
+                                            <a href="">XE GA 50CC</a>
+                                        </li>
+                                    </ul>
+                                   
+                                </div> 
+                            </li>
+                            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Xe máy điện<i class="fi fi-rr-angle-small-right"></i></a>
+                                <div class="xegalist x">
+                                    <ul class="row">
+                                        <li>
+                                            <a href="">XE MÁY ĐIỆN VESPA</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="">XE MÁY ĐIỆN XMEN</a>
+                                        </li>
+                                        <li>
+                                            <a href="">XE MÁY ĐIỆN GOGO</a>
+                                        </li>
+                                        <li>
+                                            <a href="">XE MÁY ĐIỆN CREA</a>
+                                        </li>
+                                    </ul>
+                                   
+                                </div>
+                            </li>
+                            <li><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Xe đạp điện</a></li>
+                            <li><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Ắc quy điện</a></li>
+                            <li><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">DK MOTOR</a></li>
+                            <li><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NIOSHIMA</a></li>
+                            <li><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">DETECH</a></li>
+                            <li><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NAMA Motor</a></li>
+                            <li class="xemthem"><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NIOSHIMA</a></li>
+                            <li class="xemthem"><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">DETECH</a></li>
+                            <li class="xemthem"><a href="" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NAMA Motor</a></li>
+                            <li class="xemthem_list"><a href=""><i style="left: 2px;" class="fi fi-rr-add"></i><i></i>Xem thêm</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="menu"> 
+                    <ul class="menu_list row"> 
+                        <li class="item" ><a href=""style="color: #ffb416;">Trang chủ</a></li>
+                        <li class="item"><a href="">Giới thiệu</a></li>
+                        <li class="item"><a href="" style="color: #ffb416;">Sản phẩm<i id="q" class="fi fi-rr-caret-down"></i></a>
+                        <div class="drop" >
+                                <ul class="">
+                                    <li>
+                                        <a href="">XE GA 50CC<i class="fi fi-rr-angle-small-right"></i></a>
+                                        <div class="minilist">
+                                            <ul class="">
+                                                <li>
+                                                    <a href="">VESPA 50CC</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="">XE CREA 50CC</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">GIORNO 50CC</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">GO GO 50CC</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="">XE MÁY 50CC<i class="fi fi-rr-angle-small-right"></i></a>
+                                        <div class="minilist">
+                                            <ul class="">
+                                                <li>
+                                                    <a href="">CUB 50CC</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="">WAVE 50CC</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">XE GA 50CC</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="">XE MÁY ĐIỆN<i class="fi fi-rr-angle-small-right"></i></a>
+                                        <div class="minilist">
+                                            <ul class="">
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN VESPA</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN XMEN</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN GOGO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN CREA</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="">XE ĐẠP ĐIỆN</a>
+                                    </li>
+                                    <li><a href="">ẮC QUY ĐIỆN</a></li>
+                                    <li><a href="">DK MOTOR</a></li>
+                                    <li><a href="">NIOSHIMA</a></li>
+                                    <li><a href="">DETECH</a></li>
+                                    <li><a href="">NAMAR Motor</a></li>
+                                    <li><a href="">JVC ECO</a></li>
+                                    <li><a href="">ALLY MOTOR</a></li>
+                                    <li><a href="">HTC LIMA</a></li>
+                                </ul>
+                               
+                            </div>
+                        </li>
+                        <li class="item"><a href="">Mua trả góp</a></li>
+                        <li class="item"><a href="">Tin mới nhất<i class="fi fi-rr-caret-down"></i></a>
+                            <div class="drop">
+                                <ul>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item"><a href="">Câu hỏi thường gặp</a></li>
+                        <li class="item"><a href="">Liên hệ</a></li>
+                        <li class="item"><a href="">Thông tin</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <input type="checkbox" class="nav-inp" id="nav-mb-inp">
+    <div class="overlay"> </div>
+    <div class="nav-mb">
+        <div class="cartegory_wrap">
+            <span class="cartegory_title">Danh mục sản phẩm</span>
+            <label for="nav-mb-inp"><i class="fi fi-rr-cross"></i></label>
+        </div>
+        <div class="wrap-nav-mb">
+
+        
+        <ul class="nav-cate-mb">
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);"> Xe ga 50cc <i class="fi fi-rr-angle-small-right"></i></i></a> 
+                <div class="xegalist">
+                    <ul class="row">
+                        <li>
+                            <a href="">VESPA 50CC</a>
+                            
+                        </li>
+                        <li>
+                            <a href="">XE CREA 50CC</a>
+                        </li>
+                        <li>
+                            <a href="">GIORNO 50CC</a>
+                        </li>
+                        <li>
+                            <a href="">GO GO 50CC</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Xe máy 50cc<i class="fi fi-rr-angle-small-right"></i></a>
+                <div class="xegalist">
+                    <ul class="">
+                        <li>
+                            <a href="">CUB 50CC</a>
+                            
+                        </li>
+                        <li>
+                            <a href="">WAVE 50CC</a>
+                        </li>
+                        <li>
+                            <a href="">XE GA 50CC</a>
+                        </li>
+                    </ul>
+                   
+                </div> 
+            </li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Xe máy điện<i class="fi fi-rr-angle-small-right"></i></a>
+                <div class="xegalist x">
+                    <ul class="">
+                        <li>
+                            <a href="">XE MÁY ĐIỆN VESPA</a>
+                            
+                        </li>
+                        <li>
+                            <a href="">XE MÁY ĐIỆN XMEN</a>
+                        </li>
+                        <li>
+                            <a href="">XE MÁY ĐIỆN GOGO</a>
+                        </li>
+                        <li>
+                            <a href="">XE MÁY ĐIỆN CREA</a>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Xe đạp điện</a></li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">Ắc quy điện</a></li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">DK MOTOR</a></li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NIOSHIMA</a></li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">DETECH</a></li>
+            <li><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NAMA Motor</a></li>
+            <li class="xemthem"><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NIOSHIMA</a></li>
+            <li class="xemthem"><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">DETECH</a></li>
+            <li class="xemthem"><a href="" class="them" style=" background-image: url(img/crea-50cc-nioshima-den97a8.png);">NAMA Motor</a></li>
+            <li class="xemthem_list"><a href=""><i style="left: 2px;" class="fi fi-rr-add"></i><i></i>Xem thêm</a></li>
+        </ul>
+        <ul class="menu-mb">
+            <li class="item" ><a href="">Trang chủ</a></li>
+                        <li class="item"><a class="" href="">Giới thiệu</a></li>
+                        <li class="item"><a href="">Sản phẩm<i id="q" class="fi fi-rr-caret-down"></i></a>
+                        <div class="drop" >
+                                <ul class="">
+                                    <li>
+                                        <a href="">XE GA 50CC<i class="fi fi-rr-angle-small-right"></i></a>
+                                        <div class="minilist">
+                                            <ul class="">
+                                                <li>
+                                                    <a href="">VESPA 50CC</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="">XE CREA 50CC</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">GIORNO 50CC</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">GO GO 50CC</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="">XE MÁY 50CC<i class="fi fi-rr-angle-small-right"></i></a>
+                                        <div class="minilist">
+                                            <ul class="">
+                                                <li>
+                                                    <a href="">CUB 50CC</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="">WAVE 50CC</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">XE GA 50CC</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="">XE MÁY ĐIỆN<i class="fi fi-rr-angle-small-right"></i></a>
+                                        <div class="minilist">
+                                            <ul class="">
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN VESPA</a>
+                                                    
+                                                </li>
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN XMEN</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN GOGO</a>
+                                                </li>
+                                                <li>
+                                                    <a href="">XE MÁY ĐIỆN CREA</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="">XE ĐẠP ĐIỆN</a>
+                                    </li>
+                                    <li><a href="">ẮC QUY ĐIỆN</a></li>
+                                    <li><a href="">DK MOTOR</a></li>
+                                    <li><a href="">NIOSHIMA</a></li>
+                                    <li><a href="">DETECH</a></li>
+                                    <li><a href="">NAMAR Motor</a></li>
+                                    <li><a href="">JVC ECO</a></li>
+                                    <li><a href="">ALLY MOTOR</a></li>
+                                    <li><a href="">HTC LIMA</a></li>
+                                </ul>
+                               
+                            </div>
+                        </li>
+                        <li class="item"><a href="">Mua trả góp</a></li>
+                        <li class="item"><a href="">Tin mới nhất<i class="fi fi-rr-caret-down"></i></a>
+                            <div class="drop">
+                                <ul>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                    <li><a href="">Thông tin khuyến mãi</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item"><a href="">Câu hỏi thường gặp</a></li>
+                        <li class="item"><a href="">Liên hệ</a></li>
+                        <li class="item"><a href="">Thông tin</a></li>
+        </ul>
+    </div>
+    <div class="contact_wrap row"> 
+        <div class="contact" style="background-image: url('img/crea-50cc-nioshima-den97a8.png');">  
+            <p>Tư vấn hỗ trợ</p>
+            <a href="tel:0985571111">0985571111</a>
+        </div>
+       
+        <div class="contact" style="background-image: url(bizweb.dktcdn.net/100/443/045/themes/844966/assets/usersc350.svg?1686670305050);">  
+            <p>Tư vấn hỗ trợ</p>
+            <a>Đăng nhập</a>
+        </div>
+    </div>
+    </div>
+
+<div class="main-dm">
+    <div class="side_bar-wrap">
+        <ul class="top-main row">
+            <li class="top-main-li"><a href=""class="bl hva link-top-main">Trang chủ</a></li>
+            <span>/</span>
+            <li class="top-main-li">Xe ga</li>
+        </ul>
+        <div class="side_bar"> 
+            <ul class="side_bar_cate"> 
+                    <h4>
+                        Danh mục sản phẩm
+                    </h4>
+                <li class="side_bar_item"><a href="">
+                    <img style="width: 20px ;" src="img/xe-ga-50cc-espero-crea(1).jpg" alt="">
+                    <div class="name-pr">Vespa 50cc</div>
+                </a></li>
+                <li class="side_bar_item"><a href="">
+                    <img style="width: 20px;" src="img/xe-ga-50cc-espero-crea(1).jpg" alt="">
+                    <div class="name-pr">Vespa 50cc</div>
+                </a></li>
+                <li class="side_bar_item"><a href="">
+                    <img style="width: 20px;" src="img/xe-ga-50cc-espero-crea(1).jpg" alt="">
+                    <div class="name-pr">Vespa 50cc</div>
+                </a></li>
+                <li class="side_bar_item"><a href="">
+                    <img style="width: 20px;" src="img/xe-ga-50cc-espero-crea(1).jpg" alt="">
+                    <div class="name-pr">Vespa 50cc</div>
+                </a></li>
+            </ul>
+        </div>
+        <div class="ltm"> 
+            <div class="ltm_title">
+                <h2>LỌC THÔNG MIMH
+                </h2>
+                <span>Tìm sản phẩm mong muốn nhanh hơn</span>
+            </div>
+            <h4>
+                Khoảng giá
+            </h4>
+            <ul class=" ltm_list"> 
+                <li class="ltm_item"><span>
+                    <input id="checkbox1" type="checkbox" checked>
+                    <label for="checkbox1"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox2" type="checkbox" checked>
+                    <label for="checkbox2"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox3" type="checkbox" checked>
+                    <label for="checkbox3"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox4" type="checkbox" checked>
+                    <label for="checkbox4"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox5" type="checkbox" checked>
+                    <label for="checkbox5"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox6" type="checkbox" checked>
+                    <label for="checkbox6"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox7" type="checkbox" checked>
+                    <label for="checkbox7"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox8" type="checkbox" checked>
+                    <label for="checkbox8"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+            </ul>
+            <h4>
+                Loại
+            </h4>
+            <ul class="loai ltm_list"> 
+                <li class="ltm_item"><span>
+                    <input id="checkbox9" type="checkbox" checked>
+                    <label for="checkbox9"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox10" type="checkbox" checked>
+                    <label for="checkbox10"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox11" type="checkbox" checked>
+                    <label for="checkbox11"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+                <li class="ltm_item"><span>
+                    <input id="checkbox12" type="checkbox" checked>
+                    <label for="checkbox12"><i></i></label>
+                    Dưới 10 triệu
+                </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="main-content">
+        <div class="block-des">
+            <div class="img"><img src="img/xe-ga-50cc-espero-crea(1).jpg" alt=""></div>
+            <div class="des">
+                <h1 class="collectiontitle">Xe ga 50cc</h1>
+                
+                
+                <div class="scrolldes">
+                    <p style="text-align: justify;">Lan Anh Motor là tổng đại lý, nhà phân phối <strong>Xe&nbsp;ga 50cc</strong>&nbsp;với&nbsp;nhiều thương hiệu cao cấp như DETECH, ALLY MOTOR, NAMA MOTOR,&nbsp;DK MOTOR, NIOSHIMA. Showroom to, rộng và chuyên nghiệp phong phú&nbsp;kiểu dáng, mẫu mã&nbsp;- Đa dạng phân khúc - Đầy đủ màu sắc. Đến với Lan Anh Motor chắc chắn Quý khách sẽ hài lòng với&nbsp;quyết định của mình.</p>
+                    <p style="text-align: center;"><img style="max-width: 100%" data-thumb="original" original-height="300" original-width="1200" src="//bizweb.dktcdn.net/100/443/045/files/xe-ga-50cc-xe-lan-anh.png?v=1639882805834"></p>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="category-products">
+            <div class="sort-cate-left">
+                <ul>
+                    <li class="checked-yll btn-quick-sort"><a href="">Tên A-Z</a></li>
+                    <li class="btn-quick-sort"><a href="">Tên Z-A</a></li>
+                    <li class="btn-quick-sort"><a href="">Giá thấp đến cao</a></li>
+                    <li class="btn-quick-sort"><a href="">Giá cao xuống thấp</a></li>
+                    <li class="btn-quick-sort"><a href="">Mới nhất</a> </li>
+                    <li class="btn-quick-sort"><a href="">Cũ nhất</a></li>
+                </ul>
+            </div>
+            <div class="products-view">
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-pro-2 sale content_fill-item">
+                    <div class="action-list">
+                        <a href="" class="add-heart action-item">
+                            <svg enable-background="new 0 0 412.735 412.735" version="1.1" viewBox="0 0 412.74 412.74" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"> <path d="m295.71 35.522c-34.43-0.184-67.161 14.937-89.339 41.273-22.039-26.516-54.861-41.68-89.339-41.273-64.633 0-117.03 52.395-117.03 117.03 0 110.76 193.31 218.91 201.14 223.09 3.162 2.113 7.286 2.113 10.449 0 7.837-4.18 201.14-110.76 201.14-223.09 0-64.633-52.396-117.03-117.03-117.03zm-89.339 319.22c-30.302-17.763-185.47-112.33-185.47-202.19 0-53.091 43.039-96.131 96.131-96.131 32.512-0.427 62.938 15.972 80.457 43.363 3.557 4.905 10.418 5.998 15.323 2.44 0.937-0.68 1.761-1.503 2.44-2.44 29.055-44.435 88.631-56.903 133.07-27.848 27.202 17.787 43.575 48.114 43.521 80.615 1e-3 90.907-155.17 184.95-185.47 202.19z"/> </svg>
+                        </a>
+                        <a href="" class="action-item add-ss">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"> <path d="M9,15H7c-0.6,0-1-0.4-1-1V2c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v12C10,14.6,9.6,15,9,15z"></path> <path d="M1,9h2c0.6,0,1,0.4,1,1v4c0,0.6-0.4,1-1,1H1c-0.6,0-1-0.4-1-1v-4C0,9.4,0.4,9,1,9z"></path> <path d="M15,5h-2c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1h2c0.6,0,1-0.4,1-1V6C16,5.4,15.6,5,15,5z"></path> </svg>
+                        </a>
+                    </div>
+                    <div class="item-thumb">
+                        <a href="">
+                            <img class="item-thumb-img" src="img/xe-may-dien-vespa-lx-150i-jvc-ghi.png" alt="">
+                        </a>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-name">
+                            <a href="">
+                                Xe máy điện Vecpa LX 150i JVC
+                            </a>
+                        </h3>
+                        <div class="price-box">
+                            <span class="price">17.900.000₫</span>
+                            <span class="compare-price">2.900.000₫</span>
+                            <div class="item-cart">
+                                <button class="add_to_cart " title="Mua ngay">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                                        <circle cx="7" cy="17" r="2"></circle>
+                                        <circle cx="15" cy="17" r="2"></circle>
+                                        <path d="M20,4.4V5l-1.8,6.3c-0.1,0.4-0.5,0.7-1,0.7H6.7c-0.4,0-0.8-0.3-1-0.7L3.3,3.9C3.1,3.3,2.6,3,2.1,3H0.4C0.2,3,0,2.8,0,2.6
+                                                V1.4C0,1.2,0.2,1,0.4,1h2.5c1,0,1.8,0.6,2.1,1.6L5.1,3l2.3,6.8c0,0.1,0.2,0.2,0.3,0.2h8.6c0.1,0,0.3-0.1,0.3-0.2l1.3-4.4
+                                                C17.9,5.2,17.7,5,17.5,5H9.4C9.2,5,9,4.8,9,4.6V3.4C9,3.2,9.2,3,9.4,3h9.2C19.4,3,20,3.6,20,4.4z"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer>
+        <div class="fisrt-footer">
+            <div class="footer-menu">
+                <div class="footer-menu-child">
+                    <h4 class="footer-menu-title">
+                        <span>VỀ CHÚNG TÔI</span>
+                    </h4>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+                            <a href="" class="link-footer-item">Trang chủ</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="link-footer-item">Giới thiệu</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="link-footer-item">Sản phẩm</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+                            <a href="" class="link-footer-item">Mua trả góp</a>
+
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Tin mới nhất</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Câu hỏi thường gặp</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Liên hệ</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Thông tin đăng ký bảo hành</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Trang thông tin </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu-child">
+                    <h4 class="footer-menu-title">
+                        <span>HƯỚNG DẪNI</span>
+                    </h4>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Hướng dẫn mua hàng</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Giao nhận và thanh toán</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Đổi trả và bảo hành</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Đăng ký thành viên</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu-child">
+                    <h4 class="footer-menu-title">
+                        <span>ĐIỀU KHOÁN</span>
+                    </h4>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Điều khoản sử dụng</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Điều khoản giao dịch</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Dịch vụ tiện ích</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item"> Quyền sở hữu trí tuệ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-menu-child">
+                    <h4 class="footer-menu-title">
+                        <span>CHÍNH SÁCH</span>
+                    </h4>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Chính sách thanh toán</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Chính sách vận chuyển</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Chính sách đổi trả</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Chính sách bảo hành</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            <a href="" class="link-footer-item">Chính sách bảo mật thông tin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="second-footer">
+            <div class="footer-menu-second footer-menu">
+                <div class="address">
+                    <h4 class="footer-menu-title">
+                        <span>XE LAN ANH - LAN ANH MOTOR</span>
+                    </h4>
+                    <ul class="footer-menu-list">
+                        <li class="footer-menu-item">
+
+                            Giờ mở cửa: Từ 8h00 đến 21h30 hàng ngày
+                        </li>
+                        <li class="footer-menu-item">
+
+                            CS1: CS1: 145 Bạch Mai quận Hai Bà Trưng, HN
+                        </li>
+                        <li class="footer-menu-item">
+
+                           CS2: 444 Phố Khương Đình, Q. Thanh Xuân, Hà Nội
+                        </li>
+                        <li class="footer-menu-item">
+
+                            Phone 1:<a href="tel:0985571111" class="link-footer-item"> 0985571111</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            Phone 2:<a href="tel:0901361111" class="link-footer-item"> 0901361111</a>
+                        </li>
+                        <li class="footer-menu-item">
+
+                            Email:<a href="mailto: xedapdienlananh@gmail.com" class="link-footer-item"> xedapdienlananh@gmail.com</a>
+                        </li>
+                    </ul>
+                    <div class="btc">
+                        <a href=""><img src="/img/logo_bct.png" style="width: 170px;" alt=""></a>
+                    </div>
+                </div>
+                <div class="mail">
+                    <h4 class="footer-menu-title">
+                        <span>XE LAN ANH - LAN ANH MOTOR</span>
+                    </h4>
+                    <div class="mail_footer">
+                        <input type="mail" placeholder="Nhập email của bạn">
+                        <button>Đăng ký</button>
+                    </div>
+                    <div class="social-footer">
+                        <a href="" class="social-button">
+                            <i class="footer-icon ti-facebook"></i>
+                        </a>
+                        <a href="" class="social-button">
+                            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 488 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
+                        </a>
+                        <a href="" class="social-button">
+                            <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="last-footer">
+            <div class="footer-menu">
+                <div class="last-footer-left">
+                    <p>Bản quyền thuộc về Xe <a href="">Điện Xe Máy 50cc Lan Anh Cung</a> cấp bởi <a href="">Sapo</a></p>
+                </div>
+                <ul class="last-footer-menu">
+                    <li class="last-footer-li"><a href="index.html">Trang chủ</a></li>
+                    <li class="last-footer-li"><a href="">Giới thiệu</a></li>
+                    <li class="last-footer-li"><a href="index.html">Sản phẩm</a></li>
+                    <li class="last-footer-li"><a href="">Mua trả góp</a></li>
+                    <li class="last-footer-li"><a href="">Tin mới nhất</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

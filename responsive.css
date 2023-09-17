@@ -1,0 +1,121 @@
+ @media screen and (max-width:1200px) {
+    .logo img{ 
+        width: 140px;
+        
+    }
+    
+
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    .search_wrap {
+        max-width: 175px;
+    }
+
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+
+    .theme-search-smart {
+        margin-top: 0px;
+    }
+    
+}
+@media (max-width: 991px){
+    .contact {
+       display: none;
+    }
+    .header_top{
+        width: 80%;
+    }
+    .nav{
+        display: none;
+    }
+    .icon-menu svg{
+        width: 30px;
+        height: 30px;
+        position: absolute;  
+        transform: translate(-50%,-50%);
+        fill: #eb3e32;
+    }
+    .nav-mb{
+        width: 330px;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        background-color: #fff;
+        display: none;
+
+    }
+    .nav-mb .cartegory_wrap{
+        background-color: #eb3e32;
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+    .nav-mb .cartegory_wrap i{
+       position: absolute;
+       right: 10px;
+       top: 25%;
+       color: #fff;
+        
+    }
+    .nav-mb .cartegory_wrap:before {
+        content: "";
+        display: none;
+    }
+    .menu-mb a,
+    .nav-mb .them{
+        display: inline-block;
+    color: #000;
+    display: block;
+    height: inherit;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0px 5px 0px 30px;
+    background-size: 20px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    position: relative;
+    }
+    .menu-mb a{
+        padding-left: 10px;
+    }
+    .them i{
+        position: absolute;
+        right: 10px;
+    }
+    .menu-mb a:hover,
+    .them:hover{
+        color: #ffb416;
+    }
+    .them:hover .subnav{
+        display: block;
+    }
+    .nav-cate-mb:last-child{
+        margin-bottom: 10px;
+    }
+    .nav-cate-mb{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+    }
+    .wrap-nav-mb{
+        height: 100vh;
+        overflow-y: scroll;
+        position: relative;
+    }
+    .footer-menu-child{
+        width: 50%;
+    }
+}
+@media (max-width: 570px){
+    .search_wrap{
+      position: absolute;
+      top:55px;
+      right: 9%;
+      width: 66%;
+    }
+    .icon-menu svg{
+        top: 80px;
+        left: 50px;
+    }
+}
